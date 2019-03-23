@@ -1,0 +1,36 @@
+.card {
+  padding: 20px;
+  border: solid 1px #666;
+  width: 20%;
+  box-sizing: border-box;
+
+}
+
+.bind {
+  height: 100px;
+  transition: ease .5s height;
+}
+
+.bind.is-bind {
+  height: 0;
+}
+
+.fade {
+  opacity: 1;
+  transition: ease .5s opacity;
+}
+
+.fade.is-fade {
+  opacity: 0;
+}
+
+.drop {
+  position: relative;
+  left: 0;
+  transition: ease .5s left;
+}
+
+.drop.is-drop {
+  position: relative;
+  left: 20%;
+}

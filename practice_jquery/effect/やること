@@ -1,0 +1,17 @@
+エフェクトを作る
+徐々に変わるためには、trasitionを指定する
+
+bindを作る
+bind＝クリックしたら縮む
+クリックしたら高さが変わる
+ex)height: 100px;→height: 0;
+
+fadeを作る
+fade=クリックしたら透過する
+ex)opacity(透過): 1;→opacity: 0;
+
+dropを作る
+drop=クリックしたら移動する
+ex)left: 0;→left: 20%;
+
+js=クリックしたらcssのclassを付ける
