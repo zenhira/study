@@ -1,0 +1,60 @@
+.accordion {
+  overflow: hidden;
+  border: solid 1px #666;
+  width: 20%;
+}
+
+.accordion + .accordion {
+  border-top: 0;
+}
+
+.accordion_header {
+  padding: 10px 20px;
+}
+
+.accordion_content {
+  height: 0;
+}
+
+.accordion.is-open .accordion_content {
+  border-top: 1px solid #666;
+  padding: 10px 20px;
+  height: auto;
+}
+
+.card {
+  padding: 20px;
+  border: solid 1px #666;
+  width: 20%;
+  box-sizing: border-box;
+
+}
+
+.bind {
+  height: 100px;
+  transition: ease .5s height;
+}
+
+.bind.is-bind {
+  height: 0;
+}
+
+.fade {
+  opacity: 1;
+  transition: ease .5s opacity;
+}
+
+.fade.is-fade {
+  opacity: 0;
+}
+
+.drop {
+  position: relative;
+  left: 0;
+  transition: ease .5s left;
+}
+
+.drop.is-drop {
+  position: relative;
+  left: 20%;
+}
